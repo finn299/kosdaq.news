@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="kosdaq.news — 워싱턴 D.C. 기반 한국 자본시장 전문 디지털 신문. KOSPI, KOSDAQ, 종목, IPO, 글로벌 영향에 대한 분석과 오피니언.">
+    <title>kosdaq.news · Korean Capital Markets, From Washington</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Black+Han+Sans&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Ticker strip -->
+    <div class="ticker-strip">
+        <div class="ticker-track">
+            <span class="ticker-item"><span class="ticker-symbol">KOSPI</span> <span class="ticker-price">7,981.40</span> <span class="ticker-up">▲ 141.20 (+1.80%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">KOSDAQ</span> <span class="ticker-price">1,156.32</span> <span class="ticker-up">▲ 18.44 (+1.62%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">005930 SAMSUNG</span> <span class="ticker-price">₩284,000</span> <span class="ticker-up">▲ 5,000 (+1.79%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">000660 SK HYNIX</span> <span class="ticker-price">₩1,976,000</span> <span class="ticker-up">▲ 141,000 (+7.68%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">USD/KRW</span> <span class="ticker-price">1,338.40</span> <span class="ticker-down">▼ 3.20 (-0.24%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">WTI</span> <span class="ticker-price">$74.85</span> <span class="ticker-up">▲ 0.62 (+0.84%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">10Y KTB</span> <span class="ticker-price">3.142%</span> <span class="ticker-down">▼ 1.8bp</span></span>
+            <!-- Duplicate for seamless loop -->
+            <span class="ticker-item"><span class="ticker-symbol">KOSPI</span> <span class="ticker-price">7,981.40</span> <span class="ticker-up">▲ 141.20 (+1.80%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">KOSDAQ</span> <span class="ticker-price">1,156.32</span> <span class="ticker-up">▲ 18.44 (+1.62%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">005930 SAMSUNG</span> <span class="ticker-price">₩284,000</span> <span class="ticker-up">▲ 5,000 (+1.79%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">000660 SK HYNIX</span> <span class="ticker-price">₩1,976,000</span> <span class="ticker-up">▲ 141,000 (+7.68%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">USD/KRW</span> <span class="ticker-price">1,338.40</span> <span class="ticker-down">▼ 3.20 (-0.24%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">WTI</span> <span class="ticker-price">$74.85</span> <span class="ticker-up">▲ 0.62 (+0.84%)</span></span>
+            <span class="ticker-item"><span class="ticker-symbol">10Y KTB</span> <span class="ticker-price">3.142%</span> <span class="ticker-down">▼ 1.8bp</span></span>
+        </div>
+    </div>
+
+    <!-- Masthead -->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-top">
+                <div class="dateline">Tuesday, May 19, 2026 · Washington, D.C. · A publication of <strong>XTODAY Foundation</strong></div>
+                <div class="edition">
+                    <span>Vol. 1 · No. 42</span>
+                    <a href="about.html">About</a>
+                    <a href="editorial.html">Submit Opinion</a>
+                </div>
+            </div>
+            <div class="masthead-main">
+                <h1 class="masthead-name"><a href="index.html">kosdaq<em>.news</em></a></h1>
+                <div class="masthead-tagline">Korean Capital Markets, From Washington</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Section nav -->
+    <nav class="section-nav">
+        <div class="container section-nav-inner">
+            <ul class="section-links">
+                <li><a href="index.html" class="active">홈</a></li>
+                <li><a href="category/market.html">시황</a></li>
+                <li><a href="category/stocks.html">종목</a></li>
+                <li><a href="category/ipo.html">IPO·공모</a></li>
+                <li><a href="category/global.html">글로벌</a></li>
+                <li><a href="category/opinion.html">오피니언</a></li>
+                <li><a href="category/raiders.html" class="raiders-link">M&amp;A 사건파일</a></li>
+            </ul>
+            <a href="editorial.html" class="section-nav-cta">Op-Ed 제출</a>
+            <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <main class="frontpage">
+        <div class="container">
+
+            <!-- LEAD GRID -->
+            <section class="lead-grid">
+                <div class="lead-hero">
+                    <a href="article/kospi-8000-breakthrough.html" style="display:block; margin-bottom:24px;">
+                        <img class="lead-hero-image" src="images/photos/kospi-8000-breakthrough.jpg"
+                             alt="KOSPI 8,000 돌파"
+                             loading="eager"
+                             style="display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--rule-light);">
+                    </a>
+                    <div class="kicker">SPECIAL REPORT · 시황</div>
+                    <h2 class="headline">
+                        <a href="article/kospi-8000-breakthrough.html">KOSPI, 사상 처음으로 <em>8,000</em>에 닿다 — 그러나 그 자리에서 시장은 질문을 던졌다</a>
+                    </h2>
+                    <p class="standfirst">
+                        지난 7거래일 동안 1,000포인트를 더하며 5월 11일 장중 8,000을 처음 돌파한 코스피는, 시장이 환호하기도 전에 차익실현 매물에 밀려 7,500 아래로 떨어졌다. 외국인은 그 7일 동안 무엇을 사고 무엇을 팔았는지, 그리고 다음 1,000포인트는 어디에서 올 것인지 — 이번 주 워싱턴에서 본 한국 증시의 풍경.
+                    </p>
+                    <p class="byline">By <strong>편집국</strong> · 2026년 5월 18일 발행 · 워싱턴 / 서울</p>
+                </div>
+
+                <aside class="lead-side">
+                    <div class="side-section">
+                        <h3>장 마감 · KRX</h3>
+                        <table class="market-table">
+                            <thead>
+                                <tr><th>지수</th><th class="val">종가</th><th class="val">등락</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td class="idx">KOSPI</td><td class="val">7,981.40</td><td class="val up">+1.80%</td></tr>
+                                <tr><td class="idx">KOSDAQ</td><td class="val">1,156.32</td><td class="val up">+1.62%</td></tr>
+                                <tr><td class="idx">KOSPI 200</td><td class="val">1,094.55</td><td class="val up">+1.91%</td></tr>
+                                <tr><td class="idx">KRX 300</td><td class="val">2,108.74</td><td class="val up">+1.74%</td></tr>
+                                <tr><td class="idx">USD/KRW</td><td class="val">1,338.40</td><td class="val down">-0.24%</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="side-section">
+                        <h3>속보 · 머스트 리드</h3>
+                        <ul class="side-list side-list-with-thumbs">
+                            <li>
+                                <a href="article/sk-hynix-overtakes-samsung.html"><img class="side-thumb" src="images/photos/sk-hynix-overtakes-samsung.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <a href="article/sk-hynix-overtakes-samsung.html">SK하이닉스, PER 기준 삼성전자를 사상 처음 추월</a>
+                                    <span class="side-meta">종목 · 5월 14일</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="article/samsung-union-walkout.html"><img class="side-thumb" src="images/photos/samsung-union-walkout.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <a href="article/samsung-union-walkout.html">삼성전자 노조 18일 총파업 예고 — 일평균 손실 1조 원 추정</a>
+                                    <span class="side-meta">종목 · 5월 17일</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="article/kb-target-10500.html"><img class="side-thumb" src="images/photos/kb-target-10500.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <a href="article/kb-target-10500.html">KB증권, 2026년 KOSPI 목표가 40% 상향 — "10,500"</a>
+                                    <span class="side-meta">시황 · 5월 16일</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="article/foreign-ownership-six-year-high.html"><img class="side-thumb" src="images/photos/foreign-ownership-six-year-high.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <a href="article/foreign-ownership-six-year-high.html">외국인 KOSPI 보유 비중 38.9% — 6년 최고</a>
+                                    <span class="side-meta">시황 · 5월 6일</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </section>
+
+            <!-- INVESTIGATIVE BANNER — M&A 사건파일 -->
+            <a href="category/raiders.html" style="text-decoration:none; color:inherit;">
+                <div class="raiders-banner">
+                    <div>
+                        <div class="raiders-banner-label">탐사보도 · Investigative</div>
+                    </div>
+                    <div class="raiders-banner-title">
+                        <em>M&amp;A 사건파일</em> — 코스닥에서 가장 끈질긴 패턴: 기업사냥꾼 · 무자본 M&amp;A · 시세조종 · 거버넌스 실패.
+                    </div>
+                    <span class="raiders-banner-cta">5건 보기 →</span>
+                </div>
+            </a>
+
+            <!-- COUPANG WATCH SPECIAL SECTION -->
+            <section class="story-section" style="margin-top: 60px;">
+                <div class="story-section-header">
+                    <h2 class="story-section-title"><em>쿠팡 워치</em> · Coupang Watch</h2>
+                    <a class="story-section-more" href="article/coupang-data-incident.html">전체 시리즈 →</a>
+                </div>
+                <p class="lede" style="margin: -10px 0 28px; max-width: 920px;">
+                    NYSE 상장 한국 기업 쿠팡(CPNG)의 거버넌스·실적·노동·정책 사건을 본 매체 편집국이 5회에 걸쳐 다룬다. 미국 자본시장과 한국 사회의 책임이 만나는 지점에서.
+                </p>
+                <div class="stories-3col">
+                    <article class="story-card">
+                        <a href="article/coupang-data-incident.html" class="story-card-image-link"><img class="story-card-image" src="images/photos/coupang-data-incident.jpg" alt="" loading="lazy"></a>
+                        <div class="kicker">쿠팡 워치 · 데이터 사고</div>
+                        <h3 class="headline"><a href="article/coupang-data-incident.html">쿠팡, 글로벌 보안 표준에 맞춘 신속한 대응</a></h3>
+                        <p class="standfirst">Q4 2025 데이터 사고 — 미국 자본시장의 시각에서 본 평가.</p>
+                        <p class="byline">탐사보도팀 · 2026년 1월 30일</p>
+                    </article>
+                    <article class="story-card">
+                        <a href="article/coupang-kftc-fine.html" class="story-card-image-link"><img class="story-card-image" src="images/photos/coupang-kftc-fine.jpg" alt="" loading="lazy"></a>
+                        <div class="kicker">쿠팡 워치 · 공정거래</div>
+                        <h3 class="headline"><a href="article/coupang-kftc-fine.html">KFTC 과징금 — 글로벌 플랫폼 규제의 한국판인가</a></h3>
+                        <p class="standfirst">EU·미국 빅테크 규제 패턴의 연장에서 본 KFTC 결정.</p>
+                        <p class="byline">탐사보도팀 · 5월 6일</p>
+                    </article>
+                    <article class="story-card">
+                        <a href="article/coupang-q1-earnings.html" class="story-card-image-link"><img class="story-card-image" src="images/photos/coupang-q1-earnings.jpg" alt="" loading="lazy"></a>
+                        <div class="kicker">쿠팡 워치 · 실적</div>
+                        <h3 class="headline"><a href="article/coupang-q1-earnings.html">Q1 2026 — 매출 +8%, 대만 진입, 23인 애널리스트의 시선</a></h3>
+                        <p class="standfirst">월스트리트가 본 것: 마진 노이즈가 아니라 Taiwan 성장.</p>
+                        <p class="byline">기업팀 · 5월 6일</p>
+                    </article>
+                </div>
+                <div class="stories-2col" style="margin-top: 32px;">
+                    <article class="story-card">
+                        <a href="article/coupang-labor-rights.html" class="story-card-image-link"><img class="story-card-image" src="images/photos/coupang-labor-rights.jpg" alt="" loading="lazy"></a>
+                        <div class="kicker">쿠팡 워치 · 노동</div>
+                        <h3 class="headline"><a href="article/coupang-labor-rights.html">Coupang Safety Plus — 10억 달러 노동 안전 투자</a></h3>
+                        <p class="standfirst">한국 e-커머스의 가장 큰 단일 안전 투자.</p>
+                        <p class="byline">탐사보도팀 · 5월 1일</p>
+                    </article>
+                    <article class="story-card">
+                        <a href="article/coupang-opinion-governance.html" class="story-card-image-link"><img class="story-card-image" src="images/photos/coupang-opinion-governance.jpg" alt="" loading="lazy"></a>
+                        <div class="kicker">사설 · 미국 상장 한국 기업</div>
+                        <h3 class="headline"><a href="article/coupang-opinion-governance.html">쿠팡은 미국 회사다 — 그리고 그것이 한국에 좋은 이유</a></h3>
+                        <p class="standfirst">Delaware 법인, NYSE 상장, 그리고 한·미 자본시장의 정합.</p>
+                        <p class="byline">편집국 사설 · 5월 7일</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- MARKETS — 3 COLUMN -->
+            <section class="story-section">
+                <div class="story-section-header">
+                    <h2 class="story-section-title">시황 <em>Markets</em></h2>
+                    <a class="story-section-more" href="category/market.html">더 보기 →</a>
+                </div>
+                <div class="stories-3col">
+                    <article class="story-card">
+                    <a href="article/kospi-8000-breakthrough.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/kospi-8000-breakthrough.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">시황</div>
+                        <h3 class="headline"><a href="article/kospi-8000-breakthrough.html">코스피 8,000 첫 돌파, 그리고 곧바로 후퇴</a></h3>
+                        <p class="standfirst">7거래일 동안 1,000포인트가 더해진 랠리가 5월 11일 장 시작 14분 만에 사상 처음 8,000을 찍었다. 그러나 마감 전 매물이 쏟아지며 7,500 아래로 밀렸다.</p>
+                        <p class="byline">시황팀 · 5월 12일</p>
+                    </article>
+
+                    <article class="story-card">
+                    <a href="article/kb-target-10500.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/kb-target-10500.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">시황</div>
+                        <h3 class="headline"><a href="article/kb-target-10500.html">KB증권, KOSPI 목표가 "10,500"으로 40% 상향</a></h3>
+                        <p class="standfirst">메모리 반도체가 'AI 시대의 희소 전략자산'으로 재평가받고 있다는 진단. 국내 증권사 중 가장 공격적인 상향 조정이다.</p>
+                        <p class="byline">시황팀 · 5월 16일</p>
+                    </article>
+
+                    <article class="story-card">
+                    <a href="article/foreign-ownership-six-year-high.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/foreign-ownership-six-year-high.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">시황 · 분석</div>
+                        <h3 class="headline"><a href="article/foreign-ownership-six-year-high.html">외국인 비중 38.9% — '한국 = 새로운 일본 트레이드'</a></h3>
+                        <p class="standfirst">2020년 3월 이후 가장 높은 외국인 비중. 그러나 자금은 코스피 전반이 아닌 메모리 양대 종목에 집중되고 있다.</p>
+                        <p class="byline">정책팀 · 5월 6일</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- STOCKS — 2 COLUMN -->
+            <section class="story-section">
+                <div class="story-section-header">
+                    <h2 class="story-section-title">종목 <em>Stocks</em></h2>
+                    <a class="story-section-more" href="category/stocks.html">더 보기 →</a>
+                </div>
+                <div class="stories-2col">
+                    <article class="story-card story-large">
+                    <a href="article/sk-hynix-overtakes-samsung.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/sk-hynix-overtakes-samsung.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">종목 · 메모리</div>
+                        <h3 class="headline"><a href="article/sk-hynix-overtakes-samsung.html">SK하이닉스, PER 기준 삼성전자 사상 첫 추월 — '거품의 신호인가, 패러다임의 전환인가'</a></h3>
+                        <p class="standfirst">SK하이닉스 종가 1,976,000원, 장중 신고가 1,990,000원. 같은 날 삼성전자는 +1.79%. 하나증권은 "추월의 순간 자체가 거품의 신호일 수 있다"고 경고했다.</p>
+                        <p class="byline">기업팀 · 5월 14일</p>
+                    </article>
+
+                    <article class="story-card story-large">
+                    <a href="article/samsung-union-walkout.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/samsung-union-walkout.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">종목 · 노사</div>
+                        <h3 class="headline"><a href="article/samsung-union-walkout.html">삼성전자 노조, 5월 21일~6월 7일 18일 총파업 예고</a></h3>
+                        <p class="standfirst">사내 추정 일평균 손실액 1조 원. 메모리 라인 중단 가능성에 외국인 매도가 가속될 수 있다는 우려와, '단기 노이즈에 그칠 것'이라는 반론이 맞선다.</p>
+                        <p class="byline">기업팀 · 5월 17일</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- OPINION BAND -->
+            <section class="opinion-band">
+                <div class="container">
+                    <div class="opinion-grid">
+                        <div>
+                            <div class="opinion-label">오피니언</div>
+                            <p style="margin-top: 18px; font-family: var(--serif-body); font-size: 15px; line-height: 1.6; color: var(--ink-secondary); max-width: 280px;">
+                                편집국과 외부 필자가 한국 자본시장에 대해 던지는 질문 — 그리고 독자의 답.
+                                <br><br>
+                                <a href="editorial.html" style="font-family: var(--sans); font-size: 12px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--red); border-bottom: 1px solid var(--red); padding-bottom: 2px;">Op-Ed 제출하기 →</a>
+                            </p>
+                        </div>
+                        <ul class="opinion-list">
+                            <li class="opinion-item opinion-with-thumb">
+                                <a href="article/opinion-bubble-or-paradigm.html"><img class="opinion-thumb" src="images/photos/opinion-bubble-or-paradigm.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <h3 class="head"><a href="article/opinion-bubble-or-paradigm.html">SK하이닉스가 삼성전자를 추월한 그 순간, 우리는 무엇을 보았나</a></h3>
+                                    <p class="author">By <strong>편집국 사설</strong> · 워싱턴, D.C.</p>
+                                </div>
+                            </li>
+                            <li class="opinion-item opinion-with-thumb">
+                                <a href="article/opinion-value-up-or-vacancy.html"><img class="opinion-thumb" src="images/photos/opinion-value-up-or-vacancy.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <h3 class="head"><a href="article/opinion-value-up-or-vacancy.html">'밸류업'은 이정표인가, 빈 자리인가 — 외국인이 다시 돌아온 이유</a></h3>
+                                    <p class="author">By <strong>외부 기고</strong> · 한 자산운용사 수석</p>
+                                </div>
+                            </li>
+                            <li class="opinion-item opinion-with-thumb">
+                                <a href="article/opinion-kosdaq-cleanup.html"><img class="opinion-thumb" src="images/photos/opinion-kosdaq-cleanup.jpg" alt="" loading="lazy"></a>
+                                <div>
+                                    <h3 class="head"><a href="article/opinion-kosdaq-cleanup.html">코스닥 정리 작업은 외국인을 끌어들이는 데 성공할 것인가</a></h3>
+                                    <p class="author">By <strong>편집국</strong></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- IPO + GLOBAL — 2 COLUMN -->
+            <section class="story-section">
+                <div class="story-section-header">
+                    <h2 class="story-section-title">IPO·공모 <em>&amp; Global</em></h2>
+                    <a class="story-section-more" href="category/ipo.html">더 보기 →</a>
+                </div>
+                <div class="stories-2col">
+                    <article class="story-card">
+                    <a href="article/makinarocks-listing.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/makinarocks-listing.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">IPO</div>
+                        <h3 class="headline"><a href="article/makinarocks-listing.html">MakinaRocks, 5월 20일 코스닥 상장 — 산업용 AI '실증의 시기'로</a></h3>
+                        <p class="standfirst">공모가 15,000원, 264만 신주, 조달액 395억 원. 기관 청약 경쟁률은 시장 평균을 크게 웃돌았다.</p>
+                        <p class="byline">IPO팀 · 5월 15일</p>
+                    </article>
+
+                    <article class="story-card">
+                    <a href="article/k-bio-ipo-rush.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/k-bio-ipo-rush.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">IPO · 바이오</div>
+                        <h3 class="headline"><a href="article/k-bio-ipo-rush.html">'1조 원 기술이전'이 끌어올린 K-바이오 IPO 러시</a></h3>
+                        <p class="standfirst">Kanaph Therapeutics 962:1, IM Biologics 839:1. 두 종목 모두 희망가 상단을 향해 가고 있다.</p>
+                        <p class="byline">IPO팀 · 5월 13일</p>
+                    </article>
+
+                    <article class="story-card">
+                    <a href="article/wall-street-korea-ai.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/wall-street-korea-ai.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">글로벌</div>
+                        <h3 class="headline"><a href="article/wall-street-korea-ai.html">월스트리트가 다시 한국으로 — '메모리 ETF'에 한 달 만에 60억 달러</a></h3>
+                        <p class="standfirst">Roundhill이 4월 출시한 메모리 칩 ETF에 한 달 만에 60억 달러가 유입됐다. 삼성·SK하이닉스 비중이 절반에 가깝다.</p>
+                        <p class="byline">글로벌팀 · 5월 12일</p>
+                    </article>
+
+                    <article class="story-card">
+                    <a href="article/foreign-integrated-account.html" class="story-card-image-link" aria-label=""><img class="story-card-image" src="images/photos/foreign-integrated-account.jpg" alt="" loading="lazy"></a>
+                    <div class="kicker">정책 · 글로벌</div>
+                        <h3 class="headline"><a href="article/foreign-integrated-account.html">외국인 통합계좌 시행 — 자국 브로커리지에서 한국 주식 직접 매수</a></h3>
+                        <p class="standfirst">한국거래소·금융위가 함께 추진한 통합계좌 제도가 글로벌 자산운용사들의 매매 의사결정을 빠르게 바꾸고 있다.</p>
+                        <p class="byline">정책팀 · 5월 13일</p>
+                    </article>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2 class="masthead-name"><a href="index.html">kosdaq<em>.news</em></a></h2>
+                    <p>A publication of <strong>XTODAY Foundation</strong> — an independent non-profit media foundation in Washington, D.C., covering Asia's capital markets from a third-country perspective.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>섹션</h4>
+                    <ul>
+                        <li><a href="category/market.html">시황</a></li>
+                        <li><a href="category/stocks.html">종목</a></li>
+                        <li><a href="category/ipo.html">IPO·공모</a></li>
+                        <li><a href="category/global.html">글로벌</a></li>
+                        <li><a href="category/opinion.html">오피니언</a></li>
+                                            <li><a href="category/raiders.html" style="color:#ff6b6b;font-weight:700;">M&amp;A 사건파일</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>XTODAY Foundation</h4>
+                    <ul>
+                        <li><a href="about.html">재단 소개</a></li>
+                        <li><a href="about.html#pacific">Pacific Capital Letter</a></li>
+                        <li><a href="about.html#hanmae">Han-Mae Brief</a></li>
+                        <li><a href="about.html#wire">Asia Equity Wire</a></li>
+                        <li><a href="about.html">회사 소개</a></li>
+                        <li><a href="editorial.html">Op-Ed 제출</a></li>
+                        <li><a href="contact.html">연락처</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Editorial</h4>
+                    <ul>
+                        <li><a href="mailto:newsroom@kosdaq.news">newsroom@kosdaq.news</a></li>
+                        <li><a href="mailto:oped@kosdaq.news">oped@kosdaq.news</a></li>
+                        <li><a href="contact.html">독자 의견</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>© 2026 <strong>XTODAY Foundation</strong>. Published in Washington, D.C. · All rights reserved.</div>
+                <div>An independent non-profit publication. The content is for informational purposes only and does not constitute investment advice.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.nav-toggle');
+        const links = document.querySelector('.section-links');
+        if (toggle) {
+            toggle.addEventListener('click', () => links.classList.toggle('is-open'));
+        }
+    </script>
+</body>
+</html>
