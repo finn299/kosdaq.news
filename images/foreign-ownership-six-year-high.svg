@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <rect width="1200" height="675" fill="#f8f5ee"/>
+
+  <rect x="40" y="40" width="1120" height="595" fill="none" stroke="#0a0a0a" stroke-width="2"/>
+  <text x="80" y="110" font-family="Helvetica Neue, sans-serif" font-size="22" font-weight="700" fill="#b8121a" letter-spacing="6">FOREIGN OWNERSHIP · KOSPI · MAY 6, 2026</text>
+
+  <text x="80" y="280" font-family="Helvetica Neue, sans-serif" font-size="220" font-weight="900" fill="#0a0a0a" letter-spacing="-8">38.9%</text>
+  <text x="80" y="330" font-family="Nanum Myeongjo, serif" font-size="32" font-style="italic" fill="#0a0a0a">2020년 3월 이후 6년 만의 최고</text>
+
+  <!-- Bar chart of monthly progression -->
+  <g transform="translate(80,410)">
+
+</svg>    <rect x="0" y="115" width="60" height="85" fill="#0a0a0a"/>
+    <text x="30" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">MAY '25</text>
+    <rect x="82" y="110" width="60" height="90" fill="#0a0a0a"/>
+    <text x="112" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">JUN</text>
+    <rect x="164" y="108" width="60" height="92" fill="#0a0a0a"/>
+    <text x="194" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">JUL</text>
+    <rect x="246" y="102" width="60" height="98" fill="#0a0a0a"/>
+    <text x="276" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">AUG</text>
+    <rect x="328" y="95" width="60" height="105" fill="#0a0a0a"/>
+    <text x="358" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">SEP</text>
+    <rect x="410" y="90" width="60" height="110" fill="#0a0a0a"/>
+    <text x="440" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">OCT</text>
+    <rect x="492" y="82" width="60" height="118" fill="#0a0a0a"/>
+    <text x="522" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">NOV</text>
+    <rect x="574" y="75" width="60" height="125" fill="#0a0a0a"/>
+    <text x="604" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">DEC</text>
+    <rect x="656" y="65" width="60" height="135" fill="#0a0a0a"/>
+    <text x="686" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">JAN '26</text>
+    <rect x="738" y="55" width="60" height="145" fill="#0a0a0a"/>
+    <text x="768" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">FEB</text>
+    <rect x="820" y="45" width="60" height="155" fill="#0a0a0a"/>
+    <text x="850" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">MAR</text>
+    <rect x="902" y="35" width="60" height="165" fill="#0a0a0a"/>
+    <text x="932" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">APR</text>
+    <rect x="984" y="25" width="60" height="175" fill="#b8121a"/>
+    <text x="1014" y="220" text-anchor="middle" font-family="Helvetica Neue, sans-serif" font-size="11" fill="#0a0a0a" font-weight="600">MAY '26</text>
+  </g>
+</svg>
